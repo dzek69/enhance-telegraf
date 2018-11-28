@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": [
+            "node 8"
+        ],
+        "useBuiltIns": "entry"
+      }
+    ]
+  ],
+  "env": {
+    "testing": {
+      "plugins": [
+        "rewire"
+      ]
+    }
+  }
+}
