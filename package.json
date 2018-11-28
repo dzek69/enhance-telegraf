@@ -1,6 +1,6 @@
 {
   "name": "enhance-telegraf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.js",
   "repository": "https://github.com/dzek69/enhance-telegraf.git",
   "author": "Jacek Nowacki @dzek69 <git-public@dzek.eu>",
@@ -29,5 +29,8 @@
     "jsdoc": "^3.5.5",
     "mocha": "^5.2.0",
     "must": "^0.13.4"
+  },
+  "peerDependencies": {
+    "oop-timers": "^1.0.0"
   }
 }

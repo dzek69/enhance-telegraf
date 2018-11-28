@@ -5,6 +5,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [UNRELEASED]
 
+## [0.0.2] - 2018-11-28
+### Added
+- oop-timers as peer dependency
+
 ## [0.0.1] - 2018-11-28
 ### Added
 - first version
