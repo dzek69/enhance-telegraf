@@ -68,7 +68,7 @@ const enhanceBot = (telegraf) => { // eslint-disable-line max-lines-per-function
             isSending = true;
             const newText = currentFn(Date.now() - startTime);
             await telegram.editMessageText(chatId, messageId, null, newText).catch(noop);
-            isSending = false;
+            isSending = false; // eslint-disable-line require-atomic-updates
         };
 
         // eslint-disable-next-line no-magic-numbers
